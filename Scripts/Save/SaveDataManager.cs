@@ -60,7 +60,6 @@ public class SaveDataManager : MonoBehaviour
             }
             else
             {
-                        //11:35
                 inventory_Save.slotData.Add(new InventorySave(inventory.slots[i].item.itemId
                                     , inventory.slots[i].count));
             }
