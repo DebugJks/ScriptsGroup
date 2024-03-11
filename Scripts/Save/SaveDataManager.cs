@@ -103,6 +103,7 @@ public class SaveDataManager : MonoBehaviour
 
         PlayerData playerData = new PlayerData
         {
+            curHp = GameManagers.instance.player.playerData.curHp,
             lastPos = GameManagers.instance.player.transform.position   // 플레이어 마지막 위치
         };
         string playerJson = JsonUtility.ToJson(playerData);
